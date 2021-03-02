@@ -21,19 +21,12 @@ You can also trigger the stop event manually using a dedicated function.
 
 Add to pubspec.yaml:
 
-```yaml
-dependencies:
-
-```
-
-or to get the experimental one:
 
 ```yaml
 dependencies:
   flutter_nfc_reader:
     git:
-      url: git://github.com/hdsmathy/flutter_nfc.git
-      ref: develop
+      url: https://github.com/hdsmathy/flutter_nfc.git
 ```
 
 and then run the shell
