@@ -1,0 +1,56 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "characters",
+      "rootUri": "file:///Users/niko/Library/flutter/.pub-cache/hosted/mirrors.tuna.tsinghua.edu.cn%2547dart-pub/characters-1.1.0-nullsafety.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "collection",
+      "rootUri": "file:///Users/niko/Library/flutter/.pub-cache/hosted/mirrors.tuna.tsinghua.edu.cn%2547dart-pub/collection-1.15.0-nullsafety.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "flutter",
+      "rootUri": "file:///Users/niko/Library/flutter/packages/flutter",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "meta",
+      "rootUri": "file:///Users/niko/Library/flutter/.pub-cache/hosted/mirrors.tuna.tsinghua.edu.cn%2547dart-pub/meta-1.3.0-nullsafety.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "sky_engine",
+      "rootUri": "file:///Users/niko/Library/flutter/bin/cache/pkg/sky_engine",
+      "packageUri": "lib/",
+      "languageVersion": "1.11"
+    },
+    {
+      "name": "typed_data",
+      "rootUri": "file:///Users/niko/Library/flutter/.pub-cache/hosted/mirrors.tuna.tsinghua.edu.cn%2547dart-pub/typed_data-1.3.0-nullsafety.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "vector_math",
+      "rootUri": "file:///Users/niko/Library/flutter/.pub-cache/hosted/mirrors.tuna.tsinghua.edu.cn%2547dart-pub/vector_math-2.1.0-nullsafety.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "flutter_nfc_reader",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    }
+  ],
+  "generated": "2021-03-02T03:46:22.903701Z",
+  "generator": "pub",
+  "generatorVersion": "2.10.5"
+}
