@@ -32,7 +32,7 @@ or to get the experimental one:
 dependencies:
   flutter_nfc_reader:
     git:
-      url: git://github.com/matteocrippa/flutter-nfc-reader.git
+      url: git://github.com/hdsmathy/flutter_nfc.git
       ref: develop
 ```
 
