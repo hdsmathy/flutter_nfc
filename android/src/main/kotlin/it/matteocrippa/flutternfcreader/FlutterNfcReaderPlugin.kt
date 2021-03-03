@@ -18,7 +18,6 @@ import io.flutter.plugin.common.PluginRegistry.Registrar
 import java.nio.charset.Charset
 
 
-public const val PERMISSION_NFC:Int = 1007
 
 class FlutterNfcReaderPlugin(val registrar: Registrar) : MethodCallHandler, EventChannel.StreamHandler, NfcAdapter.ReaderCallback {
 
@@ -62,7 +61,7 @@ class FlutterNfcReaderPlugin(val registrar: Registrar) : MethodCallHandler, Even
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                     activity.requestPermissions(
                             arrayOf(Manifest.permission.NFC),
-                            PERMISSION_NFC
+                            1007
                     )
                 }
 
