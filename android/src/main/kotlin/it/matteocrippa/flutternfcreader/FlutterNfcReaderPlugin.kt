@@ -18,7 +18,7 @@ import io.flutter.plugin.common.PluginRegistry.Registrar
 import java.nio.charset.Charset
 
 
-const val PERMISSION_NFC = 1007
+const val PERMISSION_NFC:Int = 1007
 
 class FlutterNfcReaderPlugin(val registrar: Registrar) : MethodCallHandler, EventChannel.StreamHandler, NfcAdapter.ReaderCallback {
 
