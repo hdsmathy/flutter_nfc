@@ -42,7 +42,7 @@ class FlutterNfcReaderPlugin(val registrar: Registrar) : MethodCallHandler, Even
         fun registerWith(registrar: Registrar): Unit {
             val messenger = registrar.messenger()
             val channel = MethodChannel(messenger, "flutter_nfc_reader")
-            val eventChannel = EventChannel(messenger, "com.gioneco.flutternfcreader.flutter_nfc_reader")
+            val eventChannel = EventChannel(messenger, "it.matteocrippa.flutternfcreader.flutter_nfc_reader")
             val plugin = FlutterNfcReaderPlugin(registrar)
             channel.setMethodCallHandler(plugin)
             eventChannel.setStreamHandler(plugin)
